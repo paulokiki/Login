@@ -1,0 +1,65 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Trebuchet MS';
+	background: #353b48;
+}
+
+.container{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+}
+
+.container h1{
+	color: #4cd137;
+	letter-spacing: 10px;
+}
+
+.container .input{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #44bd32;
+	padding: 8px 10px;
+	width: 220px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	transition: 0.50s;
+
+}
+
+.container .input:focus{
+	width: 260px;
+	borde-color: #fbc531;
+}
+
+.botao{
+	border: 0;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #273c75;
+	padding: 8px 2px;
+	width: 220px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	transition: 0.30s;
+	cursor: pointer;
+
+
+}
+
+.botao:hover{
+	background: #273c75;
+}
